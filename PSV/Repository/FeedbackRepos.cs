@@ -7,5 +7,12 @@ namespace PSV.Repository
 {
     public class FeedbackRepos
     {
+        ProjectContext context;
+
+        public FeedbackRepos(ProjectContext context)
+
+        {
+            this.context = context;
+        }
     }
 }

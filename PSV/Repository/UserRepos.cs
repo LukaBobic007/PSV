@@ -7,5 +7,15 @@ namespace PSV.Repository
 {
     public class UserRepos
     {
+        
+            ProjectContext context;
+
+            public TerminRepos(ProjectContext context)
+
+            {
+                this.context = context;
+            }
+        }
+
     }
-}
+
